@@ -1,0 +1,41 @@
+{
+  "name": "FarmaFiches-F7-GunDB",
+  "version": "1.0.0",
+  "description": "A cordova application to support doctors in consulting 'fiches' (pdf files) from health care companies.",
+  "main": "src/js/app.js",
+  "scripts": {
+    "start": "npm run build && cordova run",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "keywords": ["cordova", "Framework7", "Svelte", "GunDB", "healthcare", "fiches"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cordova": "^10.0.0",
+    "framework7": "^8.10.0",
+    "svelte": "^3.0.0",
+    "gun": "^0.2020.520"
+  },
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "svelte-loader": "^3.0.0",
+    "css-loader": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "file-loader": "^6.0.0"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-ionic-keyboard": {}
+    },
+    "platforms": [
+      "browser"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+/* src/css/fiche.css */
+
+.fiche-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.fiche-item {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+
+.fiche-item:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+.fiche-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.fiche-description {
+    font-size: 14px;
+    color: #666;
+}
+
+.fiche-pdf {
+    display: none;
+}
