@@ -1,0 +1,74 @@
+/* src/css/app.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #007aff;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer {
+    background-color: #007aff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.fiche-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.fiche-item {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.fiche-item:hover {
+    background-color: #f0f0f0;
+}
+
+.login-form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007aff;
+    color: white;
+    border: none;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+.analytics-data {
+    display: none;
+}
